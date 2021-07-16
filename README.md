@@ -7,4 +7,5 @@ Images and character sprite were all personally designed and created. The RPG wo
 
 TODO: 
 -Make it deployable so that i can share it to others: Recreate this with a new JavaFX project via the e(fx)clipse plugin (gives access to a fxbuild file) - convert and build with Gradle
+-Move images into resource file and main code into separate file (standard when built with Gradle)
 -Maybe look into uploading a runnable .jar file and making an .exe file with Launch4j to be able to share with friends/family
