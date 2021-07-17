@@ -3,6 +3,39 @@ JavaFX game built on Eclipse.
 
 The object of the game is to escape the room. The player must obtain the key in order to exit the room. Use the arrow keys to move the player around. Move your character around the objects of the room and press the space bar to check if the key is there. Once the key is obtained, the player may exit the room via the stairs.
 
+Start up Menu Options:
+
+<img src="https://user-images.githubusercontent.com/54614988/125993363-67bdcc76-2ca1-4402-85fc-28817532adb8.PNG" width="400">
+
+<img src="https://user-images.githubusercontent.com/54614988/125993378-57b1e43f-bbe2-4482-acb9-50a7ca97a3f8.PNG" width="400">
+
+<img src="https://user-images.githubusercontent.com/54614988/125993722-adb22b83-dd10-4f6e-afd8-317cabcab4cd.PNG" width="400">
+
+<img src="https://user-images.githubusercontent.com/54614988/125992963-f83ba722-75a8-45b1-8df8-e0da949b06c9.PNG" width="400">
+
+<img src="https://user-images.githubusercontent.com/54614988/125993804-86754d60-ccd4-4774-a866-6bd382e66fb4.PNG" width="400">
+
+<img src="https://user-images.githubusercontent.com/54614988/125993853-211336dd-22cd-4c36-a742-b047e6e8f195.PNG" width="400">
+
+<img src="https://user-images.githubusercontent.com/54614988/125993852-c59dee35-95cd-4129-906c-d0fc185509bd.PNG" width="400"> <br />
+
+
+
+Installing and Running on Your Machine: <br />
+This game is an RPG escape room game created with Java FX. If you wish to play the game, you can download the .jar file, find the .exe file on my website: *********, or you can download this and run it on your eclipse. My eclipse was installed on windows with jdk-15.0.2 and e(fx)clipse 3.7.0.
+To get this to work install Eclipse, OpenJDK 11+, and the JavaFX Eclipse plugin (open Eclipse, click the help menu, click Eclipse Marketplace, search for javafx and install the plugin names e(fx)clipse). Your eclipse should be configured for JavaFX Development.
+
+
+After downloading, you will run into problems when getting your first JavaFX program to work. This worked for me: <br />
+After creating your project, setting up a package and adding a class: <br />
+Build path —> Configure Build Path <br />
+Libraries —> Add External JARs —> select the JavaFX jar file you downloaded <br />
+
+You should now be able to import the JavaFX libraries into your project.
+
+If it is still not working, you may have to change the execution environment to Java SE 1.8. This is located in the section “JRE” when you select “Create Java Project”.
+
+
 Images and character sprite were all personally designed and created. The RPG world background and character sprite were designed with RPG Maker MZ. You can customize your own RPG world background/sprite and and replace the images in the files.
 
 TODO: 
