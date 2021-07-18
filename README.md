@@ -36,7 +36,7 @@ You should now be able to import the JavaFX libraries into your project.
 If it is still not working, you may have to change the execution environment to Java SE 1.8. This is located in the section “JRE” when you select “Create Java Project”.
 
 
-Images and character sprite were all personally designed and created. The RPG world background and character sprite were designed with RPG Maker MZ. You can customize your own RPG world background/sprite and and replace the images in the files.
+The background and character sprite were all personally designed and created. You can customize your own RPG world background/sprite and replace the images in the files. Custom RPG world backgrounds and character sprites can be designed with RPG Maker MZ.
 
 TODO: 
 -Make it deployable so that i can share it to others: Recreate this with a new JavaFX project via the e(fx)clipse plugin (gives access to a fxbuild file) - convert and build with Gradle
