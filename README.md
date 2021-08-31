@@ -1,6 +1,7 @@
-# rpg-escape-game
-JavaFX game built on Eclipse.
+# An RPG-Style Escape Game
+A JavaFX game built with sprite animation on Eclipse and written in Java and JavaFX for the GUI.
 
+How to Play the Game:
 The object of the game is to escape the room. The player must obtain the key in order to exit the room. Use the arrow keys to move the player around. Move your character around the objects of the room and press the space bar to check if the key is there. Once the key is obtained, the player may exit the room via the stairs.
 
 Start up Menu Options:
@@ -22,23 +23,13 @@ Start up Menu Options:
 
 
 Installing and Running on Your Machine: <br />
-This game is an RPG escape room game created with Java FX. If you wish to play the game, you can download the .jar file, find the .exe file on my website: *********, or you can download this and run it on your eclipse. My eclipse was installed on windows with jdk-15.0.2 and e(fx)clipse 3.7.0.
-To get this to work install Eclipse, OpenJDK 11+, and the JavaFX Eclipse plugin (open Eclipse, click the help menu, click Eclipse Marketplace, search for javafx and install the plugin names e(fx)clipse). Your eclipse should be configured for JavaFX Development.
+This game is an RPG escape room game created with Java FX. To play the game, you can download this and run it on your eclipse. My eclipse was installed on windows with jdk-15.0.2 and e(fx)clipse 3.7.0. To get this to work install Eclipse, OpenJDK 11+, and the JavaFX Eclipse plugin (open Eclipse, click the help menu, click Eclipse Marketplace, search for javafx and install the plugin names e(fx)clipse). Your eclipse should be configured for JavaFX Development. <br />
+
+If it is still not working, you may have to change the execution environment to Java SE 1.8. This is located in the section “JRE” when you select “Create Java Project”. <br />
+
+The background and character sprite were all personally designed and created. You can customize your own RPG world background/sprite and replace the images in the files. Custom RPG world backgrounds and character sprites can be designed with RPG Maker MZ. <br />
 
 
-After downloading, you will run into problems when getting your first JavaFX program to work. This worked for me: <br />
-After creating your project, setting up a package and adding a class: <br />
-Build path —> Configure Build Path <br />
-Libraries —> Add External JARs —> select the JavaFX jar file you downloaded <br />
-
-You should now be able to import the JavaFX libraries into your project.
-
-If it is still not working, you may have to change the execution environment to Java SE 1.8. This is located in the section “JRE” when you select “Create Java Project”.
-
-
-The background and character sprite were all personally designed and created. You can customize your own RPG world background/sprite and replace the images in the files. Custom RPG world backgrounds and character sprites can be designed with RPG Maker MZ.
-
-TODO: 
--Make it deployable so that i can share it to others: Recreate this with a new JavaFX project via the e(fx)clipse plugin (gives access to a fxbuild file) - convert and build with Gradle
--Move images into resource file and main code into separate file (standard when built with Gradle)
--Maybe look into uploading a runnable .jar file and making an .exe file with Launch4j to be able to share with friends/family
+Currently working on: <br />
+-Potentially adding objects, obstacles, or mini games to make it more challenging to win <br />
+-Making this project deployable so that i can share it with others by uploading a runnable .jar file and making an .exe file with Launch4j to share with friends/family - via my portfolio (making sure to get the .jar file to upload with dependenciess)
